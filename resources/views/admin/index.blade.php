@@ -9,7 +9,9 @@
         <form action="">
             <input placeholder="Название" name="title" type="text">
             <input placeholder="Описание" name="decription" type="textarea">
-            <input placeholder="Марка" name="marka" type="text">
+            <select name="marka" id="marka">
+
+            </select>
             <input placeholder="Модель" name="model" type="text">
             <label for="year">Год производства</label>
             <select name="year" id="year">
@@ -57,6 +59,7 @@
                 <option value="Полный">Полный</option>
             </select>
             <input placeholder="Объём двигателя" name="volumn" type="text">
+            <input placeholder="Тип машины" name="typecar" type="text">
             <input placeholder="Стоимость в сутки" name="price" type="text">
             <input placeholder="Картинки" type="file" multiple>
             <input type="submit" value="Добавить">
